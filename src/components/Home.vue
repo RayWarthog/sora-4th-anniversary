@@ -265,10 +265,14 @@ export default {
         },
         image: {
           titleSrc: function (item) {
-            if (item.el.attr('add_desc')) {
-              return item.el.attr('desc') + ' - ' + item.el.attr('add_desc') + ' - ' + item.el.attr('author')
+            let author = item.el.attr('author')
+            if (item.el.attr('twitter')) {
+              author = "<a href='" + item.el.attr('twitter') + "' target='_blank'>" + author + "</a>"
             }
-            return item.el.attr('desc') + ' - ' + item.el.attr('author')
+            if (item.el.attr('add_desc')) {
+              return item.el.attr('desc') + ' - ' + item.el.attr('add_desc') + ' - ' + author
+            }
+            return item.el.attr('desc') + ' - ' + author
           }
         }
       })
@@ -499,3 +503,9 @@ section#title-sect {
 </style>
 <style src="magnific-popup/dist/magnific-popup.css"></style>
 <style src="aos/dist/aos.css"></style>
+
+<style>
+.mfp-title a {
+  color: white;
+}
+</style>

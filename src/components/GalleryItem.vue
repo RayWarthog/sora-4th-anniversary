@@ -3,7 +3,7 @@
     <div class="gallery-item-desc">
       {{desc}}
     </div>
-    <a :href=image class="gallery-item-link" :author=author :desc=desc :add_desc=add_desc>
+    <a :href=image class="gallery-item-link" :author=author :desc=desc :add_desc=add_desc :twitter=twitter>
       <img loading=lazy :src=image alt="" class="gallery-item-img">
     </a>
     <small class="author">
