@@ -56,6 +56,7 @@
         <GalleryItem data-aos="fade-in" :image='require("@/assets/gallery/Arzee_2.png")' author='@Arzee' desc='2017 2nd' />
         <GalleryItem data-aos="fade-in" :image='require("@/assets/gallery/winniet.png")' author='@winniet97' desc='2017 MC' />
         <GalleryItem data-aos="fade-in" :image='require("@/assets/gallery/Tennen_Vik.png")' author='@tennen_vik' desc='Halloween' />
+        <GalleryItem data-aos="fade-in" :image='require("@/assets/gallery/how_dee.png")' author='@how dee' desc='Kitty' />
         <GalleryItem data-aos="fade-in" :image='require("@/assets/gallery/SerenLink.png")' author='@SerenLink' desc='Yukino Sora' />
         <GalleryItem data-aos="fade-in" :image='require("@/assets/gallery/72maegami.png")' author='@72maegami' desc='Stage' />
         <GalleryItem data-aos="fade-in" :image='require("@/assets/gallery/777Blackcape.png")' author='@777blackcape' desc='Idol' />
@@ -441,7 +442,7 @@ a {
 }
 
 section {
-  margin-top: 25vh;
+  margin-top: 5vh;
 }
 section#title-sect {
   margin-top: 0;
