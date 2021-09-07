@@ -237,7 +237,6 @@ export default {
         if (this.aos) {
           this.aos.refresh()
         }
-        this.$Progress.finish()
       })
       document.querySelectorAll('#msg-sect img').forEach(item => {
         item.addEventListener('load', () => {
