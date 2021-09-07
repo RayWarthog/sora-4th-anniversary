@@ -219,6 +219,11 @@ export default {
     }
   },
   methods: {
+    refreshMasonry: function () {
+      setTimeout(() => {
+        this.masonry.layout()
+      }, 150)
+    },
     initMasonry () {
       this.masonry = new Masonry(
         document.querySelector('#message-container'),
@@ -236,7 +241,9 @@ export default {
       })
       document.querySelectorAll('#msg-sect img').forEach(item => {
         item.addEventListener('load', () => {
-          this.masonry.layout()
+          this.$nextTick(() => {
+            this.refreshMasonry()
+          })
         })
       })
     },

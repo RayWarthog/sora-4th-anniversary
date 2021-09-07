@@ -100,7 +100,7 @@ export default {
 
 @media (min-width: 1201px) {
   .gallery-item {
-    width: calc(24% - 6px);
+    width: calc(27% - 6px);
   }
   .gallery-item-link {
     height: 500px;
