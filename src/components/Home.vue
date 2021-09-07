@@ -52,23 +52,23 @@
         GALLERY
       </div>
       <div id="gallery-container">
-        <GalleryItem data-aos="fade-in" :image='require("@/assets/gallery/Arzee.png")' author='@Arzee' desc='2017 Original' />
-        <GalleryItem data-aos="fade-in" :image='require("@/assets/gallery/Arzee_2.png")' author='@Arzee' desc='2017 2nd' />
-        <GalleryItem data-aos="fade-in" :image='require("@/assets/gallery/winniet.png")' author='@winniet97' desc='2017 MC' />
-        <GalleryItem data-aos="fade-in" :image='require("@/assets/gallery/Tennen_Vik.png")' author='@tennen_vik' desc='Halloween' />
-        <GalleryItem data-aos="fade-in" :image='require("@/assets/gallery/how_dee.png")' author='@how dee' desc='Kitty' />
-        <GalleryItem data-aos="fade-in" :image='require("@/assets/gallery/SerenLink.png")' author='@SerenLink' desc='Yukino Sora' />
-        <GalleryItem data-aos="fade-in" :image='require("@/assets/gallery/72maegami.png")' author='@72maegami' desc='Stage' />
-        <GalleryItem data-aos="fade-in" :image='require("@/assets/gallery/777Blackcape.png")' author='@777blackcape' desc='Idol' />
-        <GalleryItem data-aos="fade-in" :image='require("@/assets/gallery/Cieluscian.png")' author='@cieluscian' desc='My Loving 2020' />
-        <GalleryItem data-aos="fade-in" :image='require("@/assets/gallery/Cobalnite.png")' author='@cobalnite' desc='Modern' />
-        <GalleryItem data-aos="fade-in" :image='require("@/assets/gallery/kaizeshu.png")' author='@kaizeshu' desc='Valentines' />
-        <GalleryItem data-aos="fade-in" :image='require("@/assets/gallery/kyutobirb.png")' author='@kyutobirb' desc='Swimsuit' />
-        <GalleryItem data-aos="fade-in" :image='require("@/assets/gallery/neriko.png")' author='@neriko_official' desc='Casual' />
-        <GalleryItem data-aos="fade-in" :image='require("@/assets/gallery/neriko_2.png")' author='@neriko_official' desc='Hololive Error' />
-        <GalleryItem data-aos="fade-in" :image='require("@/assets/gallery/vichyn.jpg")' author='@vichyn5' desc='Hololive Error' />
-        <GalleryItem data-aos="fade-in" :image='require("@/assets/gallery/vichyn_2.jpg")' author='@vichyn5' desc='Yukino Sora' />
-        <GalleryItem data-aos="fade-in" :image='require("@/assets/gallery/minnijay.png")' author='@_MinniJay_' desc='Watanuki' />
+        <GalleryItem data-aos="fade-in" :image='require("@/assets/gallery/Arzee.png")' author='Arzee' desc='2017 Original' add_desc="September 2017" />
+        <GalleryItem data-aos="fade-in" :image='require("@/assets/gallery/Arzee_2.png")' author='Arzee' desc='2017 2nd' add_desc="September/October 2017" />
+        <GalleryItem data-aos="fade-in" :image='require("@/assets/gallery/Tennen_Vik.png")' author='@tennen_vik' twitter="https://twitter.com/tennen_vik" desc='Halloween' add_desc="October 2017" />
+        <GalleryItem data-aos="fade-in" :image='require("@/assets/gallery/winniet.png")' author='@winniet97' twitter="https://twitter.com/winniet97" desc='MC' add_desc="January 2018" />
+        <GalleryItem data-aos="fade-in" :image='require("@/assets/gallery/kaizeshu.png")' author='@kaizeshu' twitter="https://twitter.com/kaizeshu" desc='Valentines' add_desc="February 2018" />
+        <GalleryItem data-aos="fade-in" :image='require("@/assets/gallery/how_dee.png")' author='how dee' desc='Kitty' add_desc="March 2018" />
+        <GalleryItem data-aos="fade-in" :image='require("@/assets/gallery/SerenLink.png")' author='@serenlink' twitter="https://twitter.com/serenlink" desc='Yukino Sora' add_desc="December 2018" />
+        <GalleryItem data-aos="fade-in" :image='require("@/assets/gallery/minnijay.png")' author='@_MinniJay_' twitter="https://twitter.com/_MinniJay_" desc='Watanuki' add_desc="April 2019" />
+        <GalleryItem data-aos="fade-in" :image='require("@/assets/gallery/kyutobirb.png")' author='@kyutobirb' twitter="https://twitter.com/kyutobirb" desc='Swimsuit' add_desc="August 2019" />
+        <GalleryItem data-aos="fade-in" :image='require("@/assets/gallery/72maegami.png")' author='@72maegami' twitter="https://twitter.com/72maegami" desc='Stage' add_desc="Dream - October 2019" />
+        <GalleryItem data-aos="fade-in" :image='require("@/assets/gallery/777Blackcape.png")' author='@777blackcape' twitter="https://twitter.com/777blackcape" desc='Idol' add_desc="January 2020" />
+        <GalleryItem data-aos="fade-in" :image='require("@/assets/gallery/Cieluscian.png")' author='@cieluscian' twitter="https://twitter.com/cieluscian" desc='My Loving' add_desc="March 2020" />
+        <GalleryItem data-aos="fade-in" :image='require("@/assets/gallery/vichyn_2.jpg")' author='@vichyn5' twitter="https://twitter.com/vichyn5" desc='Yoruno Sora' add_desc="May 2020" />
+        <GalleryItem data-aos="fade-in" :image='require("@/assets/gallery/Cobalnite.png")' author='@cobalnite' twitter="https://twitter.com/cobalnite" desc='Modern' add_desc="September 2020" />
+        <GalleryItem data-aos="fade-in" :image='require("@/assets/gallery/neriko.png")' author='@neriko_official' twitter="https://twitter.com/neriko_official" desc='Casual' add_desc="March 2021" />
+        <GalleryItem data-aos="fade-in" :image='require("@/assets/gallery/neriko_2.png")' author='@neriko_official' twitter="https://twitter.com/neriko_official" desc='Hololive Error' add_desc="August 2021" />
+        <GalleryItem data-aos="fade-in" :image='require("@/assets/gallery/vichyn.jpg")' author='@vichyn5' twitter="https://twitter.com/vichyn5" desc='Hololive Error' add_desc="August 2021" />
         
       </div>
     </section>
@@ -265,6 +265,9 @@ export default {
         },
         image: {
           titleSrc: function (item) {
+            if (item.el.attr('add_desc')) {
+              return item.el.attr('desc') + ' - ' + item.el.attr('add_desc') + ' - ' + item.el.attr('author')
+            }
             return item.el.attr('desc') + ' - ' + item.el.attr('author')
           }
         }

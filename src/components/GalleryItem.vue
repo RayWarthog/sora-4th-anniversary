@@ -3,11 +3,16 @@
     <div class="gallery-item-desc">
       {{desc}}
     </div>
-    <a :href=image class="gallery-item-link" :author=author :desc=desc>
+    <a :href=image class="gallery-item-link" :author=author :desc=desc :add_desc=add_desc>
       <img loading=lazy :src=image alt="" class="gallery-item-img">
     </a>
     <small class="author">
-      イラスト：{{author}}
+      <a :href=twitter target="_blank" v-if="twitter">
+        イラスト：{{author}}
+      </a>
+      <template v-else>
+        イラスト：{{author}}
+      </template>
     </small>
   </div>
 </template>
@@ -18,7 +23,9 @@ export default {
   props: {
     image: String,
     author: String,
-    desc: String
+    desc: String,
+    twitter: String,
+    add_desc: String
   }
 }
 </script>
@@ -63,6 +70,10 @@ export default {
   text-align: center;
 
   font-size: 1rem;
+}
+
+.author a {
+  color: inherit;
 }
 
 .gallery-item-link {
